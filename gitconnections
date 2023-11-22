@@ -61,3 +61,11 @@ usage: git remote add [<options>] <name> <url>
                           set up remote as a mirror to push to or fetch from
 
 PS C:\Users\abusu\OneDrive\Desktop\git>
+
+git status
+
+git add .
+
+git commit -m "ecanteen added"
+
+git push origin master
