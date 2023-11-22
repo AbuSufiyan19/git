@@ -1,0 +1,63 @@
+PS C:\Users\abusu\OneDrive\Desktop\git> git init
+Reinitialized existing Git repository in C:/Users/abusu/OneDrive/Desktop/git/.git/
+PS C:\Users\abusu\OneDrive\Desktop\git> git config --global user.name"AbuSufiyan19"
+PS C:\Users\abusu\OneDrive\Desktop\git> git config --global user.name "AbuSufiyan19"
+PS C:\Users\abusu\OneDrive\Desktop\git> git config --global user.email "abusufiyan8800@gmail.com"
+PS C:\Users\abusu\OneDrive\Desktop\git> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\abusu\OneDrive\Desktop\git> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\abusu\OneDrive\Desktop\git> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        gitconnections
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\abusu\OneDrive\Desktop\git> git add .   
+PS C:\Users\abusu\OneDrive\Desktop\git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   gitconnections
+        new file:   index.html
+
+PS C:\Users\abusu\OneDrive\Desktop\git> git commit -m "index.html"
+[master (root-commit) a05f831] index.html
+ 2 files changed, 11 insertions(+)
+ create mode 100644 gitconnections
+ create mode 100644 index.html
+PS C:\Users\abusu\OneDrive\Desktop\git> git branch 
+* master
+PS C:\Users\abusu\OneDrive\Desktop\git> git remote add https://github.com/AbuSufiyan19/git.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+PS C:\Users\abusu\OneDrive\Desktop\git>
